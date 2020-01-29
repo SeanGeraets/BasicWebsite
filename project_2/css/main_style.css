@@ -1,0 +1,95 @@
+/* 
+Author: Mark B.
+*/
+
+body {
+	background-color: teal;
+}
+
+.container-fluid {
+	border: 1px solid white;
+	margin: 0px 0px;
+	padding: 0px;
+}
+
+/* come back later and fix this thing*/
+nav {
+	position: fixed;
+	z-index: 5;
+	width: 100%;
+}
+
+.my_menu_class {
+	background-color: #6BAD73 !important;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.nav-linked {
+	font-family: Helvetica;
+	font-size: 100%;
+}
+
+a:link.nav-linked { 
+	color: #fff;
+	padding: 0px 10px;
+	text-decoration: none;
+}
+
+a:visited.nav-linked { 
+	color: #fff;
+	padding: 0px 10px;
+	text-decoration: none;
+}
+
+a:hover.nav-linked { 
+	color: #ccc;
+	padding: 0px 10px;
+	text-decoration: none;
+}
+
+a:active.nav-linked {
+	color: #fff;
+	padding: 0px 10px;
+	text-decoration: none;	
+
+}
+
+.jumbotron{
+	padding: 15px auto;
+	background-color: #fff;
+}
+
+.jum_img{
+	float:left;
+}
+
+.supplement{
+	border: 1px solid yellow;
+	background-color: khaki;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.generic_div{
+	background-color: #fff;
+	border: 1px solid #000;
+	min-height: 200px;
+	height: 100%;
+}
+.row {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+footer {
+	background-color: #6BAD73;
+	border-top: 1px solid #000;
+	min-height: 100px;
+	margin: 20px auto 0px auto;
+	padding: 10px;
+}
+
+.card {
+	margin: 10px auto;
+}
